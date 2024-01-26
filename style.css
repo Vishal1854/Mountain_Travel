@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+nav ul li{
+    list-style: none;
+    padding-right: 50px;
+    padding-top: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+}
+#bannerContent button{
+     padding: 30px 30px 30px 30px;
+}
+#banner{
+    background-image: url("./asset/main.jpg");
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-position: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+header nav ul{
+            display: flex;
+            width: 300px;
+            justify-content: space-between;  
+}
+h2{
+    padding: 10px;
+}
+p{
+    padding: 5px;
+}
+button{
+    background-color: rgb(25, 10, 82);
+    border: 0px;
+    width: 100px;
+    height: 40px;
+}
+button a{
+    text-decoration: none;
+    color: rgb(252, 250, 250);
+}
+#image_grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#image_grid .small,.large{
+       height: 300px;
+       padding: 5px;
+}
+
+#image_grid .small{
+     flex-basis: 25% ;
+}
+#image_grid .large{
+    flex-basis: 50%;
+}
+#image_grid div img{
+       width: 100%;
+       height: 100%;
+}
+header h3{
+    font-weight: 400;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+button{
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+}
+#info{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    justify-content: center;
+    text-align: center;
+}
+hr{
+    width: 70vw;
+    margin: 10px auto;
+    background-color: black;
+}
+#Tour_Info{
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    padding-bottom: 0px;
+    align-items: center;
+    justify-content: center;
+}
+#Tour_Package{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#Tour_Package .div1{
+    width: 35%;
+    height: 100px;
+    text-align: center;
+    background-color: lightskyblue;
+    border-radius: 10px;
+    margin: 10px 10px 10px 10px; 
+}
+#subscribe{
+    justify-content: center;
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 0px;
+    height: 200px;
+    background-color: lightgrey;
+    #UserEmail{
+        width: 200px;
+        height: 25px;
+    }
+    #SubscribeButton{
+        width: 200px;
+        height: 25px;
+        background-color: blueviolet;
+    }
+}
+footer{
+    text-align: center;
+    width: 100vw;
+    height: 20px;
+    background-color: darkorchid;
+    text-decoration: rgb(238, 235, 235);
+    padding-bottom: 0px;
+}
