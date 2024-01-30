@@ -149,5 +149,12 @@ footer{
         flex-basis: 50%;
     }
 }
-
+@media screen and (width<=700){
+    #image_grid .small{
+        flex-basis: 100%;
+    }
+    #image_grid .large{
+        flex-basis: 100%;
+    }
+}    
 
