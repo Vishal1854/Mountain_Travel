@@ -141,3 +141,12 @@ footer{
     text-decoration: rgb(238, 235, 235);
     padding-bottom: 0px;
 }
+@media screen and (width<=700px){
+    #image-grid .small{
+        flex-basis: 100%;
+    }
+    #image-grid .large{
+        flex-basis: 100%;
+    }
+}
+
